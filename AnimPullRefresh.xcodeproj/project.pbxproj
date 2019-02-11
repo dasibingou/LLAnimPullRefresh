@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167A26665ADA4572CF56FF1C /* libPods-AnimPullRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D7CA45B33C008CE29C2945 /* libPods-AnimPullRefresh.a */; };
+		BB2390A62211061700FD9C88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2390A52211061700FD9C88 /* AppDelegate.m */; };
+		BB2390A92211061700FD9C88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2390A82211061700FD9C88 /* ViewController.m */; };
+		BB2390AC2211061700FD9C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2390AA2211061700FD9C88 /* Main.storyboard */; };
+		BB2390AE2211061900FD9C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2390AD2211061900FD9C88 /* Assets.xcassets */; };
+		BB2390B12211061900FD9C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2390AF2211061900FD9C88 /* LaunchScreen.storyboard */; };
+		BB2390B42211061900FD9C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2390B32211061900FD9C88 /* main.m */; };
+		BB2390BB22110AD000FD9C88 /* ll_test_refresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = BB2390BA22110AD000FD9C88 /* ll_test_refresh.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FD107B87B802A395CEC40BC /* Pods-AnimPullRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimPullRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimPullRefresh/Pods-AnimPullRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		4C3A47A8B97D28E0D853B146 /* Pods-AnimPullRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimPullRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimPullRefresh/Pods-AnimPullRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		87D7CA45B33C008CE29C2945 /* libPods-AnimPullRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimPullRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2390A12211061700FD9C88 /* AnimPullRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimPullRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2390A42211061700FD9C88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB2390A52211061700FD9C88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB2390A72211061700FD9C88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB2390A82211061700FD9C88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB2390AB2211061700FD9C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB2390AD2211061900FD9C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB2390B02211061900FD9C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB2390B22211061900FD9C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2390B32211061900FD9C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB2390BA22110AD000FD9C88 /* ll_test_refresh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ll_test_refresh.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB23909E2211061700FD9C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167A26665ADA4572CF56FF1C /* libPods-AnimPullRefresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC1123254096B9B70E45CD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87D7CA45B33C008CE29C2945 /* libPods-AnimPullRefresh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71D3960A5458DF2FA50BFC4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A47A8B97D28E0D853B146 /* Pods-AnimPullRefresh.debug.xcconfig */,
+				3FD107B87B802A395CEC40BC /* Pods-AnimPullRefresh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB2390982211061700FD9C88 = {
+			isa = PBXGroup;
+			children = (
+				BB2390A32211061700FD9C88 /* AnimPullRefresh */,
+				BB2390A22211061700FD9C88 /* Products */,
+				71D3960A5458DF2FA50BFC4F /* Pods */,
+				3BC1123254096B9B70E45CD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2390A22211061700FD9C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2390A12211061700FD9C88 /* AnimPullRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2390A32211061700FD9C88 /* AnimPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				BB2390A42211061700FD9C88 /* AppDelegate.h */,
+				BB2390A52211061700FD9C88 /* AppDelegate.m */,
+				BB2390A72211061700FD9C88 /* ViewController.h */,
+				BB2390A82211061700FD9C88 /* ViewController.m */,
+				BB2390AA2211061700FD9C88 /* Main.storyboard */,
+				BB2390AD2211061900FD9C88 /* Assets.xcassets */,
+				BB2390AF2211061900FD9C88 /* LaunchScreen.storyboard */,
+				BB2390B22211061900FD9C88 /* Info.plist */,
+				BB2390B32211061900FD9C88 /* main.m */,
+				BB2390BA22110AD000FD9C88 /* ll_test_refresh.gif */,
+			);
+			path = AnimPullRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2390A02211061700FD9C88 /* AnimPullRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2390B72211061900FD9C88 /* Build configuration list for PBXNativeTarget "AnimPullRefresh" */;
+			buildPhases = (
+				3C9E37DE4C2C1D9D7AE0923D /* [CP] Check Pods Manifest.lock */,
+				BB23909D2211061700FD9C88 /* Sources */,
+				BB23909E2211061700FD9C88 /* Frameworks */,
+				BB23909F2211061700FD9C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimPullRefresh;
+			productName = AnimPullRefresh;
+			productReference = BB2390A12211061700FD9C88 /* AnimPullRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2390992211061700FD9C88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = llmodule;
+				TargetAttributes = {
+					BB2390A02211061700FD9C88 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BB23909C2211061700FD9C88 /* Build configuration list for PBXProject "AnimPullRefresh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2390982211061700FD9C88;
+			productRefGroup = BB2390A22211061700FD9C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2390A02211061700FD9C88 /* AnimPullRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB23909F2211061700FD9C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2390BB22110AD000FD9C88 /* ll_test_refresh.gif in Resources */,
+				BB2390B12211061900FD9C88 /* LaunchScreen.storyboard in Resources */,
+				BB2390AE2211061900FD9C88 /* Assets.xcassets in Resources */,
+				BB2390AC2211061700FD9C88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C9E37DE4C2C1D9D7AE0923D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimPullRefresh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB23909D2211061700FD9C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2390A92211061700FD9C88 /* ViewController.m in Sources */,
+				BB2390B42211061900FD9C88 /* main.m in Sources */,
+				BB2390A62211061700FD9C88 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB2390AA2211061700FD9C88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2390AB2211061700FD9C88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB2390AF2211061900FD9C88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2390B02211061900FD9C88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB2390B52211061900FD9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB2390B62211061900FD9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB2390B82211061900FD9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3A47A8B97D28E0D853B146 /* Pods-AnimPullRefresh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TV74SH3D9V;
+				INFOPLIST_FILE = AnimPullRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngb.NgbShop9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB2390B92211061900FD9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD107B87B802A395CEC40BC /* Pods-AnimPullRefresh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TV74SH3D9V;
+				INFOPLIST_FILE = AnimPullRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngb.NgbShop9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB23909C2211061700FD9C88 /* Build configuration list for PBXProject "AnimPullRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2390B52211061900FD9C88 /* Debug */,
+				BB2390B62211061900FD9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2390B72211061900FD9C88 /* Build configuration list for PBXNativeTarget "AnimPullRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2390B82211061900FD9C88 /* Debug */,
+				BB2390B92211061900FD9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2390992211061700FD9C88 /* Project object */;
+}
